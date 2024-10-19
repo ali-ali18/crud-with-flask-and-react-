@@ -4,7 +4,7 @@ from json_utils import inicializa_json
 from routes import registrar_rotas
 #Inicia o flask
 app = Flask(__name__)
-CORS(app, origins=['http://localhost:5173/'])
+CORS(app, resources={r"/*": {"origins": ["http://localhost:5173"], "methods": ["GET", "POST", "PUT", "DELETE"], "allow_headers": "*"}})
 
 #incia a função verificação do json existe
 inicializa_json()
