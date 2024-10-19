@@ -1,0 +1,24 @@
+# Arquivos e pastas do Python
+__pycache__/
+*.pyc
+*.pyo
+*.db
+
+# Virtual Environment (Ambiente Virtual)
+venv/
+.env/
+*.env
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configurações do Editor
+.vscode/
+.idea/
+
+# Node modules (se houver no front-end)
+node_modules/
+
+# Arquivos de log
+*.log
